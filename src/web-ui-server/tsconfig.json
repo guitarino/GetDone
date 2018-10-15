@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "resolveJsonModule": true,
+        "lib": ["es6", "dom"],
+        "types": ["node", "reflect-metadata"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "sourceMap": true,
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true 
+    },
+    "include": [
+        "./**/*.tsx",
+        "./**/*.ts"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "getdone",
+  "version": "0.0.1",
+  "description": "Get Done App",
+  "private": true,
+  "main": "build/web-ui/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guitarino/GetDone.git"
+  },
+  "keywords": [
+    "productivity",
+    "tasks",
+    "calendar",
+    "web",
+    "app"
+  ],
+  "author": "Kirill Shestakov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guitarino/GetDone/issues"
+  },
+  "homepage": "https://github.com/guitarino/GetDone#readme",
+  "dependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.8",
+    "core-js": "^2.5.7",
+    "hapi": "^17.6.0",
+    "inert": "^5.1.0",
+    "inversify": "^4.13.0",
+    "inversify-inject-decorators": "^3.1.0",
+    "raf": "^3.4.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "reflect-metadata": "^0.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^10.11.4",
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
